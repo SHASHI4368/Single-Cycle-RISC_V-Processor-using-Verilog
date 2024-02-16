@@ -5,7 +5,7 @@ module Immediate_Generator(
 
 always @(*) begin
     // Sign extension
-    if (instruction[15] == 1'b1)
+    if (instruction[11] == 1'b1)
         data_out = { {20{instruction[11]}}, instruction };
     else
         data_out = {20'b0, instruction}; 
