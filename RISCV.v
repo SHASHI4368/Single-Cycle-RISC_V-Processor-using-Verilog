@@ -108,7 +108,7 @@ Control_Unit control_unit(
 );
 
 Immediate_Generator imdgen(
- .instruction(IMEM_OUT_TOP[31:16]),
+ .instruction(IMEM_OUT_TOP[31:20]),
  .data_out(IMG_OUT_TOP)
 );
 
