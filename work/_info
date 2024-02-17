@@ -10,187 +10,187 @@ z2
 cModel Technology
 dC:/intelFPGA/20.1
 vAdder
-Z0 !s110 1708011436
+!s110 1708011436
 !i10b 1
 !s100 MGYdAf5JZYAo[HhNIYZS]1
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
 IH5Vb[>K[^7BHGeY26M@jo0
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 dE:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final
 w1705619590
 8E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Adder.v
 FE:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Adder.v
 !i122 193
-Z4 L0 1 9
-Z5 OV;L;2020.1;71
+Z3 L0 1 9
+Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1708011436.000000
+!s108 1708011436.000000
 !s107 E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Adder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Adder.v|
 !i113 1
-Z7 o-work work
-Z8 tCvgOpt 0
+Z5 o-work work
+Z6 tCvgOpt 0
 n@adder
 vALU
-R0
+Z7 !s110 1708145982
 !i10b 1
 !s100 E;;PJU[k;`8]8Gen9k2Qc3
-R1
+R0
 I<m4QMhT763ZKRcR`<eD4i0
+R1
 R2
-R3
 w1707339323
 8E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/ALU.v
 FE:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/ALU.v
-!i122 194
-Z9 L0 3 46
-R5
+!i122 285
+Z8 L0 3 46
+R4
 r1
 !s85 0
 31
-R6
+Z9 !s108 1708145982.000000
 !s107 E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/ALU.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/ALU.v|
 !i113 1
-R7
-R8
+R5
+R6
 n@a@l@u
 vALU_Control
-R0
+R7
 !i10b 1
-!s100 JY=mm@UQEaHZHkeIOlAPW2
+!s100 XGXeQ]6zScDDdXOg]BCQH1
+R0
+Ik7>j1b;J9L:eZ]jQ^5cZd3
 R1
-Ig:R?N@>KD71a=:9EWz^Dg3
 R2
-R3
-w1708011428
+w1708115785
 8E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/ALU_Control.v
 FE:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/ALU_Control.v
-!i122 195
+!i122 286
 L0 3 34
-R5
+R4
 r1
 !s85 0
 31
-R6
+R9
 !s107 E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/ALU_Control.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/ALU_Control.v|
 !i113 1
-R7
-R8
+R5
+R6
 n@a@l@u_@control
 vControl_Unit
-R0
+R7
 !i10b 1
 !s100 >EY47_gTf_SC6W8?_aBiT1
-R1
+R0
 I9X:BMB22dJkUh4GVM[ddY0
+R1
 R2
-R3
 w1708011207
 8E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Control_Unit.v
 FE:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Control_Unit.v
-!i122 196
-R9
-R5
+!i122 287
+R8
+R4
 r1
 !s85 0
 31
-R6
+R9
 !s107 E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Control_Unit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Control_Unit.v|
 !i113 1
-R7
-R8
+R5
+R6
 n@control_@unit
 vData_Memory
-R0
+R7
 !i10b 1
 !s100 Tm:k7D^gmFLLK=<R5]8Ln0
-R1
+R0
 I?QE?f@525Olk>U6T]2G<=1
+R1
 R2
-R3
 w1705619753
 8E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Data_Memory.v
 FE:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Data_Memory.v
-!i122 197
+!i122 288
 L0 3 23
-R5
+R4
 r1
 !s85 0
 31
-R6
+R9
 !s107 E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Data_Memory.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Data_Memory.v|
 !i113 1
-R7
-R8
+R5
+R6
 n@data_@memory
 vImmediate_Generator
-Z10 !s110 1708011437
+Z10 !s110 1708145983
 !i10b 1
-!s100 An3@UBEz[VeQLKWOc@Qeo2
+!s100 H^BA1VR2_B3Oh8^Mz=`5h2
+R0
+I0kmRV0E0z88AfR1f0H63l3
 R1
-IbY75cnm<l;^Td^HU`?6lJ3
 R2
-R3
-w1708011360
+w1708115461
 8E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Immediate_Generator.v
 FE:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Immediate_Generator.v
-!i122 198
+!i122 289
 L0 1 14
-R5
+R4
 r1
 !s85 0
 31
-R6
+R9
 !s107 E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Immediate_Generator.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Immediate_Generator.v|
 !i113 1
-R7
-R8
+R5
+R6
 n@immediate_@generator
 vInstruction_Memory
 R10
 !i10b 1
-!s100 NVhne=iekiB^gfFOBnj4X3
+!s100 1oF^Zo=ONcPF9aC<LV;KP3
+R0
+IGZPPKBc0MZV4JJ?JCBeCC1
 R1
-IlHazOfQHjJh3gNX]gnCCD2
 R2
-R3
-w1708011171
+w1708145974
 8E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Instruction_Memory.v
 FE:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Instruction_Memory.v
-!i122 199
+!i122 290
 L0 3 39
-R5
+R4
 r1
 !s85 0
 31
-Z11 !s108 1708011437.000000
+Z11 !s108 1708145983.000000
 !s107 E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Instruction_Memory.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Instruction_Memory.v|
 !i113 1
-R7
-R8
+R5
+R6
 n@instruction_@memory
 vMux
 R10
 !i10b 1
 !s100 ]Gk<?W3IJecaDOJ=ceYEH0
-R1
+R0
 IADB@YaEKaDBj`YmXN@QzA0
+R1
 R2
-R3
 w1707337495
 8E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Mux.v
 FE:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Mux.v
-!i122 200
+!i122 291
+R3
 R4
-R5
 r1
 !s85 0
 31
@@ -198,23 +198,23 @@ R11
 !s107 E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Mux.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Mux.v|
 !i113 1
-R7
-R8
+R5
+R6
 n@mux
 vMux2
 R10
 !i10b 1
 !s100 fYO6hjaAF=[TP<_1MnS1:0
-R1
+R0
 ICkCe^U;_hQiQoz?mF4_fU3
+R1
 R2
-R3
 w1705619768
 8E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Mux2.v
 FE:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Mux2.v
-!i122 201
+!i122 292
 L0 1 8
-R5
+R4
 r1
 !s85 0
 31
@@ -222,23 +222,23 @@ R11
 !s107 E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Mux2.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Mux2.v|
 !i113 1
-R7
-R8
+R5
+R6
 n@mux2
 vPCplus4
 R10
 !i10b 1
 !s100 P1T<@k76D6PQRz[TR6>HS1
-R1
+R0
 I;TOPDIKFSKH`>;`bNL@HY1
+R1
 R2
-R3
 w1705619560
 8E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/PCPlus4.v
 FE:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/PCPlus4.v
-!i122 202
+!i122 293
 L0 3 8
-R5
+R4
 r1
 !s85 0
 31
@@ -246,23 +246,23 @@ R11
 !s107 E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/PCPlus4.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/PCPlus4.v|
 !i113 1
-R7
-R8
+R5
+R6
 n@p@cplus4
 vProgramCounter
 R10
 !i10b 1
 !s100 6iP30B:fVjl<1O:]IhfUI1
-R1
+R0
 IfjIXATW`>izfdm>nBW2Y@3
+R1
 R2
-R3
 w1705619617
 8E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/ProgramCounter.v
 FE:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/ProgramCounter.v
-!i122 203
+!i122 294
 L0 3 15
-R5
+R4
 r1
 !s85 0
 31
@@ -270,23 +270,23 @@ R11
 !s107 E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/ProgramCounter.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/ProgramCounter.v|
 !i113 1
-R7
-R8
+R5
+R6
 n@program@counter
 vRegister_File
 R10
 !i10b 1
 !s100 `8ORHSWPidDQD^eXQ2Ia93
-R1
+R0
 I[4Jem7@gUl<adl=JhX_gz3
+R1
 R2
-R3
-w1705619658
+w1708142852
 8E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Register_File.v
 FE:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Register_File.v
-!i122 204
+!i122 295
 L0 3 61
-R5
+R4
 r1
 !s85 0
 31
@@ -294,23 +294,23 @@ R11
 !s107 E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Register_File.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Register_File.v|
 !i113 1
-R7
-R8
+R5
+R6
 n@register_@file
 vRISCV
 R10
 !i10b 1
 !s100 USiV9fJi_PM;LiYK<nAn53
-R1
+R0
 IBIMPSN?>3CU3MeULZNUd;2
+R1
 R2
-R3
 w1708011392
 8E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/RISCV.v
 FE:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/RISCV.v
-!i122 205
+!i122 296
 L0 3 113
-R5
+R4
 r1
 !s85 0
 31
@@ -318,30 +318,30 @@ R11
 !s107 E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/RISCV.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/RISCV.v|
 !i113 1
-R7
-R8
+R5
+R6
 n@r@i@s@c@v
 vTop_tb
-!s110 1708011438
+!s110 1708145984
 !i10b 1
 !s100 STN7bO=J::cH0@n8TJQ1C2
-R1
+R0
 ID9SYNEFDF`EMk[dnT>;@h1
+R1
 R2
-R3
 w1707321724
 8E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/RISCV_TB.V
 FE:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/RISCV_TB.V
-!i122 206
+!i122 297
 L0 3 19
-R5
+R4
 r1
 !s85 0
 31
-!s108 1708011438.000000
+R11
 !s107 E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/RISCV_TB.V|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/RISCV_TB.V|
 !i113 1
-R7
-R8
+R5
+R6
 n@top_tb

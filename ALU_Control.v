@@ -21,14 +21,14 @@ always @(*) begin
    default : ALUControl_out = 4'bxxxx; // Handle invalid inputs
   endcase
  end else begin
-  case (ALUOp)
-   3'b000: ALUControl_out = 4'b0001; // SLLI (Shift Left Logical Immediate) 4
-   3'b001: ALUControl_out = 4'b0010; // SUBI (Subtraction Immediate) 5
-   3'b010: ALUControl_out = 4'b0011; // ADDI (Addition Immediate) 8
-   3'b011: ALUControl_out = 4'b0110; // XORI (Bitwise XOR Immediate) 11
-   3'b100: ALUControl_out = 4'b0111; // SRLI (Shift Right Logical Immediate) 3
-   3'b101: ALUControl_out = 4'b1001; // ORI (Bitwise OR Immediate) 13
-   3'b110: ALUControl_out = 4'b1010; // ANDI (Bitwise AND Immediate) 14 
+  case ({ALUOp, func3})
+   6'b000_000: ALUControl_out = 4'b0001; // SLLI (Shift Left Logical Immediate) 4
+   6'b000_001: ALUControl_out = 4'b0010; // SUBI (Subtraction Immediate) 5
+   6'b000_010: ALUControl_out = 4'b0011; // ADDI (Addition Immediate) 8
+   6'b000_011: ALUControl_out = 4'b0110; // XORI (Bitwise XOR Immediate) 11
+   6'b000_100: ALUControl_out = 4'b0111; // SRLI (Shift Right Logical Immediate) 3
+   6'b000_101: ALUControl_out = 4'b1001; // ORI (Bitwise OR Immediate) 13
+   6'b000_110: ALUControl_out = 4'b1010; // ANDI (Bitwise AND Immediate) 14 
    default : ALUControl_out = 4'bxxxx; // Handle invalid inputs
   endcase
  end

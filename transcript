@@ -1,4 +1,3 @@
-# Compile of Adder.v was successful.
 # Compile of ALU.v was successful.
 # Compile of ALU_Control.v was successful.
 # Compile of Control_Unit.v was successful.
@@ -12,10 +11,63 @@
 # Compile of Register_File.v was successful.
 # Compile of RISCV.v was successful.
 # Compile of RISCV_TB.V was successful.
-# 14 compiles, 0 failed with no errors.
+# 13 compiles, 1 failed with no errors.
 vsim work.Top_tb
 # vsim work.Top_tb 
-# Start time: 21:07:29 on Feb 15,2024
+# Start time: 02:08:23 on Feb 17,2024
+# Loading work.Top_tb
+# Loading work.RISCV
+# Loading work.PCplus4
+# Loading work.ProgramCounter
+# Loading work.Instruction_Memory
+# Loading work.Register_File
+# Loading work.ALU
+# Loading work.Mux
+# Loading work.ALU_Control
+# Loading work.Data_Memory
+# Loading work.Mux2
+# Loading work.Control_Unit
+# Loading work.Immediate_Generator
+add wave -position insertpoint sim:/Top_tb/top/pc/*
+add wave -position insertpoint sim:/Top_tb/top/imem/*
+add wave -position insertpoint sim:/Top_tb/top/reg_file/*
+add wave -position insertpoint sim:/Top_tb/top/imdgen/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Immediate_Generator.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Mux.v was successful.
+# Compile of Mux2.v was successful.
+# Compile of PCPlus4.v was successful.
+# Compile of ProgramCounter.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of RISCV.v was successful.
+# Compile of RISCV_TB.V was successful.
+# 13 compiles, 0 failed with no errors.
+vsim work.Top_tb
+# End time: 09:23:01 on Feb 17,2024, Elapsed time: 7:14:38
+# Errors: 0, Warnings: 4
+# vsim work.Top_tb 
+# Start time: 09:23:01 on Feb 17,2024
 # Loading work.Top_tb
 # Loading work.RISCV
 # Loading work.PCplus4
@@ -31,46 +83,23 @@ vsim work.Top_tb
 # Loading work.Immediate_Generator
 add wave -position insertpoint sim:/Top_tb/top/pc/*
 add wave -position insertpoint sim:/Top_tb/top/reg_file/*
-run -all
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-add wave -position insertpoint sim:/Top_tb/top/alu_control/*
-restart
-run
-restart
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
 add wave -position insertpoint sim:/Top_tb/top/imdgen/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
 restart
 run
 run
@@ -88,5 +117,237 @@ run
 run
 run
 run
-# End time: 07:21:40 on Feb 16,2024, Elapsed time: 10:14:11
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Immediate_Generator.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Mux.v was successful.
+# Compile of Mux2.v was successful.
+# Compile of PCPlus4.v was successful.
+# Compile of ProgramCounter.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of RISCV.v was successful.
+# Compile of RISCV_TB.V was successful.
+# 13 compiles, 0 failed with no errors.
+vsim work.Top_tb
+# End time: 09:35:28 on Feb 17,2024, Elapsed time: 0:12:27
+# Errors: 0, Warnings: 2
+# vsim work.Top_tb 
+# Start time: 09:35:28 on Feb 17,2024
+# Loading work.Top_tb
+# Loading work.RISCV
+# Loading work.PCplus4
+# Loading work.ProgramCounter
+# Loading work.Instruction_Memory
+# Loading work.Register_File
+# Loading work.ALU
+# Loading work.Mux
+# Loading work.ALU_Control
+# Loading work.Data_Memory
+# Loading work.Mux2
+# Loading work.Control_Unit
+# Loading work.Immediate_Generator
+add wave -position insertpoint sim:/Top_tb/top/pc/*
+add wave -position insertpoint sim:/Top_tb/top/reg_file/*
+add wave -position insertpoint sim:/Top_tb/top/imdgen/*
+run
+run
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Immediate_Generator.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Mux.v was successful.
+# Compile of Mux2.v was successful.
+# Compile of PCPlus4.v was successful.
+# Compile of ProgramCounter.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of RISCV.v was successful.
+# Compile of RISCV_TB.V was successful.
+# 13 compiles, 0 failed with no errors.
+vsim work.Top_tb
+# End time: 09:38:35 on Feb 17,2024, Elapsed time: 0:03:07
+# Errors: 0, Warnings: 2
+# vsim work.Top_tb 
+# Start time: 09:38:35 on Feb 17,2024
+# Loading work.Top_tb
+# Loading work.RISCV
+# Loading work.PCplus4
+# Loading work.ProgramCounter
+# Loading work.Instruction_Memory
+# Loading work.Register_File
+# Loading work.ALU
+# Loading work.Mux
+# Loading work.ALU_Control
+# Loading work.Data_Memory
+# Loading work.Mux2
+# Loading work.Control_Unit
+# Loading work.Immediate_Generator
+add wave -position insertpoint sim:/Top_tb/top/pc/*
+add wave -position insertpoint sim:/Top_tb/top/reg_file/*
+add wave -position insertpoint sim:/Top_tb/top/imdgen/*
+run
+run
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Immediate_Generator.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Mux.v was successful.
+# Compile of Mux2.v was successful.
+# Compile of PCPlus4.v was successful.
+# Compile of ProgramCounter.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of RISCV.v was successful.
+# Compile of RISCV_TB.V was successful.
+# 13 compiles, 0 failed with no errors.
+vsim work.Top_tb
+# End time: 09:40:41 on Feb 17,2024, Elapsed time: 0:02:06
+# Errors: 0, Warnings: 2
+# vsim work.Top_tb 
+# Start time: 09:40:41 on Feb 17,2024
+# Loading work.Top_tb
+# Loading work.RISCV
+# Loading work.PCplus4
+# Loading work.ProgramCounter
+# Loading work.Instruction_Memory
+# Loading work.Register_File
+# Loading work.ALU
+# Loading work.Mux
+# Loading work.ALU_Control
+# Loading work.Data_Memory
+# Loading work.Mux2
+# Loading work.Control_Unit
+# Loading work.Immediate_Generator
+add wave -position insertpoint sim:/Top_tb/top/pc/*
+add wave -position insertpoint sim:/Top_tb/top/reg_file/*
+add wave -position insertpoint sim:/Top_tb/top/imdgen/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Immediate_Generator.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Mux.v was successful.
+# Compile of Mux2.v was successful.
+# Compile of PCPlus4.v was successful.
+# Compile of ProgramCounter.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of RISCV.v was successful.
+# Compile of RISCV_TB.V was successful.
+# 13 compiles, 0 failed with no errors.
+vsim work.Top_tb
+# End time: 10:28:00 on Feb 17,2024, Elapsed time: 0:47:19
+# Errors: 0, Warnings: 2
+# vsim work.Top_tb 
+# Start time: 10:28:00 on Feb 17,2024
+# Loading work.Top_tb
+# Loading work.RISCV
+# Loading work.PCplus4
+# Loading work.ProgramCounter
+# Loading work.Instruction_Memory
+# Loading work.Register_File
+# Loading work.ALU
+# Loading work.Mux
+# Loading work.ALU_Control
+# Loading work.Data_Memory
+# Loading work.Mux2
+# Loading work.Control_Unit
+# Loading work.Immediate_Generator
+add wave -position insertpoint sim:/Top_tb/top/pc/*
+add wave -position insertpoint sim:/Top_tb/top/reg_file/*
+add wave -position insertpoint sim:/Top_tb/top/imdgen/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Immediate_Generator.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Mux.v was successful.
+# Compile of Mux2.v was successful.
+# Compile of PCPlus4.v was successful.
+# Compile of ProgramCounter.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of RISCV.v was successful.
+# Compile of RISCV_TB.V was successful.
+# 13 compiles, 0 failed with no errors.
+vsim work.Top_tb
+# End time: 10:29:50 on Feb 17,2024, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 2
+# vsim work.Top_tb 
+# Start time: 10:29:50 on Feb 17,2024
+# Loading work.Top_tb
+# Loading work.RISCV
+# Loading work.PCplus4
+# Loading work.ProgramCounter
+# Loading work.Instruction_Memory
+# Loading work.Register_File
+# Loading work.ALU
+# Loading work.Mux
+# Loading work.ALU_Control
+# Loading work.Data_Memory
+# Loading work.Mux2
+# Loading work.Control_Unit
+# Loading work.Immediate_Generator
+add wave -position insertpoint sim:/Top_tb/top/pc/*
+add wave -position insertpoint sim:/Top_tb/top/reg_file/*
+add wave -position insertpoint sim:/Top_tb/top/imdgen/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 14:53:01 on Feb 17,2024, Elapsed time: 4:23:11
 # Errors: 0, Warnings: 1

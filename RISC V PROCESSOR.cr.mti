@@ -19,6 +19,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	Data_Memory
 
+} {} {}} {E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Register_File.v} {1 {vlog -work work -stats=none {E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Register_File.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Register_File
+
+Top level modules:
+	Register_File
+
 } {} {}} {E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/RISCV_TB.V} {1 {vlog -work work -stats=none {E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/RISCV_TB.V}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module Top_tb
@@ -32,13 +39,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	Mux2
-
-} {} {}} {E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Register_File.v} {1 {vlog -work work -stats=none {E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Register_File.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module Register_File
-
-Top level modules:
-	Register_File
 
 } {} {}} {E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Immediate_Generator.v} {1 {vlog -work work -stats=none {E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Immediate_Generator.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -61,26 +61,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	Control_Unit
 
-} {} {}} {E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Adder.v} {1 {vlog -work work -stats=none {E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Adder.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module Adder
-
-Top level modules:
-	Adder
-
 } {} {}} {E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/ProgramCounter.v} {1 {vlog -work work -stats=none {E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/ProgramCounter.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module ProgramCounter
 
 Top level modules:
 	ProgramCounter
-
-} {} {}} {E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Instruction_Memory.v} {1 {vlog -work work -stats=none {E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/Instruction_Memory.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module Instruction_Memory
-
-Top level modules:
-	Instruction_Memory
 
 } {} {}} {E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/ALU_Control.v} {1 {vlog -work work -stats=none {E:/ruhuna acadamic/SEM 5/EE5260 - Hardware Description Language/Project/New code/Final/ALU_Control.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
